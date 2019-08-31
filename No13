@@ -1,0 +1,42 @@
+<?php
+/*
+   1.引数に数値を指定して実行すると、数値を2倍にして返す関数を作成してください
+
+   2.$a と $b を仮引数に持ち、　$a と $b　を足した結果を返す関数を作成してください。
+
+　参考）引数は下記のように指定すると、複数の仮引数を使うことができます。
+
+  function f($a, $b){
+   //処理したい内容
+   }
+*/
+
+function Task1($i){
+  return $i*2;
+}
+  echo Task1(8);
+  echo "\n";
+  
+function Task2($a,$b){
+  echo $a+$b;
+}
+  echo Task2(5,3);
+  echo "\n";
+  
+/*3.$arr という配列の仮引数を持ち
+  、数値が入った配列array(1, 3, 5 ,7, 9) を渡すと
+  その要素をすべてかけた結果を返す関数を作成してください。
+*/
+$arr=array(1,3,5,7,9);
+
+foreach($arr as $x){
+    echo $x*;
+}
+
+
+function Task3($arr){
+    echo //命題の数式  
+}
+        echo Task3();
+        echo "\n";
+?>
